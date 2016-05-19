@@ -1,0 +1,29 @@
+/**** Element Selectors ****/
+
+li {
+	list-style: none;
+	display: inline;
+	padding: 5px 30px;
+
+}
+
+header {
+	background: lightblue;
+	padding: 3px;
+	color: darkblue;
+}
+
+nav{
+	text-align: center;
+}
+
+/**** Pseudo-class Selectors ****/
+a:hover {
+	color: white;
+}
+ul a:hover {
+	background: darkblue;
+}
+ul a:active {
+	padding: 0px 5px;
+}
